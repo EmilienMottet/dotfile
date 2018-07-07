@@ -44,7 +44,8 @@ fi
 if [ -n "$failsafe" ]; then
  # urxvtd -q -f -o
  # exec feh --bg-max --randomize /home/emilien/Images/wallpaper/* 
- # export TERMINAL=urxvtc
+    # export TERMINAL=urxvtc
+    source ~/.xprofile
  exec i3
  exec i3 -V >> ~/i3log-$(date+'%F-%k-%M-%S') 2 >& 1
 else
