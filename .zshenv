@@ -9,9 +9,9 @@ path+=(/sbin)
 # export PATH="/usr/sbin:$PATH"
 path+=(/usr/sbin)
 # export PATH="/home/emilien/.local/bin:$PATH"
-path+=(/home/emilien/.local/bin)
+path=('/home/emilien/.local/bin' $path)
 
-path+=(/home/emilien/.cargo/bin)
+path=('/home/emilien/.cargo/bin' $path)
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
