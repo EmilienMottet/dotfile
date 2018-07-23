@@ -216,3 +216,6 @@ bar {
         urgent_workspace   #161616   #ad3737   #ffffff
     }
 }
+
+# assure color urxvt
+exec --no-startup-id xrdb -merge ~/.Xresources
