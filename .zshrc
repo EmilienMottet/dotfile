@@ -91,6 +91,8 @@ plugins=(
   npm
   docker
   docker-compose
+  cargo
+  rust
 )
 
 source $ZSH/oh-my-zsh.sh
