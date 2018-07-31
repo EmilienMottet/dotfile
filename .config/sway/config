@@ -245,6 +245,10 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 10 # decrease screen brightne
 
 bindsym $mod+c exec i3lock -n
 
+# kill focused window
+# bindsym $mod+Shift+A kill
+bindsym $alt+F4 kill
+
 # add conky i3bar 
 
 bar {
