@@ -93,6 +93,8 @@ plugins=(
   docker-compose
   cargo
   rust
+  pyenv
+  python
 )
 
 source $ZSH/oh-my-zsh.sh
