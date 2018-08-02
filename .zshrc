@@ -95,6 +95,7 @@ plugins=(
   rust
   pyenv
   python
+  z
 )
 
 source $ZSH/oh-my-zsh.sh
