@@ -6,7 +6,7 @@ export TERM="xterm-256color"
   POWERLEVEL9K_CUSTOM_DISTRIB_ICON="echo -n \"\uF310\""
   POWERLEVEL9K_CUSTOM_DISTRIB_ICON_FOREGROUND="#6E56AF"
   POWERLEVEL9K_CUSTOM_DISTRIB_ICON_BACKGROUND="green"
-  
+
   POWERLEVEL9K_MODE='nerdfont-complete'
   POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon custom_distrib_icon custom_internet_signal context dir vcs)
   POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status background_jobs custom_music ram battery time)
