@@ -116,7 +116,7 @@ output DP-2 pos -1920 0 res 1920x1080
     bindsym $mod+Shift+Up move up
     bindsym $mod+Shift+Right move right
 #
-# Workspaces:
+# Workspaces ( azerty ):
 #
   # switch to workspace
   bindsym $mod+ampersand workspace 1
@@ -124,8 +124,8 @@ output DP-2 pos -1920 0 res 1920x1080
   bindsym $mod+quotedbl workspace 3
   bindsym $mod+apostrophe workspace 4
   bindsym $mod+parenleft workspace 5
-  bindsym $mod+egrave workspace 6
-  bindsym $mod+minus workspace 7
+  bindsym $mod+minus workspace 6
+  bindsym $mod+egrave workspace 7
   bindsym $mod+underscore workspace 8
   bindsym $mod+ccedilla workspace 9
   bindsym $mod+agrave workspace 10
@@ -136,8 +136,8 @@ output DP-2 pos -1920 0 res 1920x1080
   bindsym $mod+Shift+quotedbl move container to workspace 3
   bindsym $mod+Shift+apostrophe move container to workspace 4
   bindsym $mod+Shift+parenleft move container to workspace 5
-  bindsym $mod+Shift+egrave move container to workspace 6
-  bindsym $mod+Shift+minus move container to workspace 7
+  bindsym $mod+Shift+minus move container to workspace 6
+  bindsym $mod+Shift+egrave move container to workspace 7
   bindsym $mod+Shift+underscore move container to workspace 8
   bindsym $mod+Shift+ccdedilla move container to workspace 9
   bindsym $mod+Shift+agrave move container to workspace 10
@@ -168,19 +168,20 @@ output DP-2 pos -1920 0 res 1920x1080
 
     # move focus to the parent container
     bindsym $mod+a focus parent
-#
-# Scratchpad:
-#
-    # Sway has a "scratchpad", which is a bag of holding for windows.
-    # You can send windows there and get them back later.
+# #
+# # Scratchpad:
+# #
+#     # Sway has a "scratchpad", which is a bag of holding for windows.
+#     # You can send windows there and get them back later.
 
-    # Move the currently focused window to the scratchpad
-    bindsym $mod+Shift+minus move scratchpad
+#     # Move the currently focused window to the scratchpad
+#     bindsym $mod+Shift+t move scratchpad
 
-    # Show the next scratchpad window or hide the focused scratchpad window.
-    # If there are multiple scratchpad windows, this command cycles through them.
-    bindsym $mod+minus scratchpad show
-#
+#     # Show the next scratchpad window or hide the focused scratchpad window.
+#     # If there are multiple scratchpad windows, this command cycles through them.
+#     bindsym $mod+t scratchpad show
+
+# #
 # Resizing containers:
 #
 mode "resize" {
