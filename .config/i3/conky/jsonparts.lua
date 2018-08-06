@@ -72,7 +72,7 @@ end
 
 -- read once
 local machine = _h.exec('uname -r')  
-parts.machine = _h.common('', nil, machine)
+parts.machine = _h.common('', nil, machine)
 
 -- Media Player Daemon
 parts.mpd = [[
