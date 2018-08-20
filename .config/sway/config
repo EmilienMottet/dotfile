@@ -291,3 +291,5 @@ smart_gaps on
 gaps inner 5
 gaps outer 0
 new_window none
+
+for_window [class="^.*"] border pixel 5
