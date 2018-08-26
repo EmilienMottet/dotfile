@@ -495,6 +495,7 @@ This function is called at the very end of Spacemacs startup, after layer
 configuration.
 Put your configuration code here, except for variables that should be set
 before packages are loaded."
+  (setq flycheck-elixir-credo-strict t)
   ;; (setq eclim-executable  "/home/emilien/.p2/pool/plugins/org.eclim_2.7.2/bin/eclim")
   (setq ycmd-server-command '("python" "/home/emilien/Documents/OpenSource/emacs/ycmd/ycmd"))
   ;; (setq ycmd--log-enabled t)
