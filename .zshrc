@@ -90,6 +90,8 @@ plugins=(
   sudo
   pip
   npm
+  mvn
+  gradle
   docker
   docker-compose
   cargo
