@@ -77,30 +77,31 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+    terraform
     aws
     mix
-  wakatime
-  git
-  ssh-agent
-  emacs
-  zsh-completions
-  colorize
-  solarized-man
-  zsh-syntax-highlighting
-  zsh-autosuggestions
-  rbenv
-  sudo
-  pip
-  npm
-  mvn
-  gradle
-  docker
-  docker-compose
-  cargo
-  rust
-  pyenv
-  python
-  z
+    wakatime
+    git
+    ssh-agent
+    emacs
+    zsh-completions
+    colorize
+    solarized-man
+    zsh-syntax-highlighting
+    zsh-autosuggestions
+    rbenv
+    sudo
+    pip
+    npm
+    mvn
+    gradle
+    docker
+    docker-compose
+    cargo
+    rust
+    pyenv
+    python
+    z
 )
 
 source $ZSH/oh-my-zsh.sh
