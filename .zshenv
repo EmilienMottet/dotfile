@@ -19,10 +19,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # alias emacs /home/emilien/.oh-my-zsh/plugins/emacs/emacsclient.sh --no-wait
 
-export PATH="/home/emilien/.pyenv/bin:$PATH"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
-
 export PATH=$PATH
 
 typeset -U path
