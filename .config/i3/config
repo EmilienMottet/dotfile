@@ -188,7 +188,7 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 10 # decrease screen brightne
 
 #i3lock
 
-bindsym $mod+c exec i3lock -n
+# bindsym $mod+c exec i3lock -n
 
 # add conky i3bar 
 

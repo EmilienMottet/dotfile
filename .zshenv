@@ -3,6 +3,9 @@
 bindkey '^[[1;5D' backward-word
 bindkey '^[[1;5C' forward-word
 
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+
 # export PATH="$HOME/.local/share/JetBrains/Toolbox/bin:$PATH"
 # export PATH="/sbin:$PATH"
 path+=(/sbin)

@@ -99,6 +99,7 @@ plugins=(
     docker
     docker-compose
     cargo
+    golang
     rust
     pyenv
     python
