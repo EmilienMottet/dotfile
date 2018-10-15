@@ -8,3 +8,5 @@
 	includeStatusHeader = false
 	includePullRequestsSection = false
 	includeIssuesSection = false
+[url "git@gitlab.ensimag.fr:"]
+	insteadOf = https://gitlab.ensimag.fr/
