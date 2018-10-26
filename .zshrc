@@ -87,6 +87,7 @@ plugins=(
     git
     golang
     gradle
+    helm
     kops
     kubectl
     minikube
