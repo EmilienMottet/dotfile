@@ -81,7 +81,7 @@ plugins=(
     terraform
     aws
     mix
-    # wakatime
+    wakatime
     git
     ssh-agent
     emacs
