@@ -502,7 +502,7 @@ configuration.
 It is mostly for variables that should be set before packages are loaded.
 If you are unsure, try setting them in `dotspacemacs/user-config' first."
   (setq flycheck-elixir-credo-strict t)
-)
+  (setq markdown-command "/usr/bin/pandoc"))
 
 (defun dotspacemacs/user-load ()
   "Library to load while dumping.
