@@ -78,32 +78,33 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
     asdf
-    terraform
     aws
-    mix
-    wakatime
-    git
-    ssh-agent
-    emacs
-    zsh-completions
+    cargo
     colorize
-    solarized-man
-    zsh-syntax-highlighting
-    zsh-autosuggestions
-    rbenv
-    sudo
-    pip
-    npm
-    mvn
-    gradle
     docker
     docker-compose
-    cargo
+    emacs
+    git
     golang
-    rust
+    gradle
+    minikube
+    mix
+    mvn
+    npm
+    pip
     pyenv
     python
+    rbenv
+    rust
+    solarized-man
+    ssh-agent
+    sudo
+    terraform
+    wakatime
     z
+    zsh-autosuggestions
+    zsh-completions
+    zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
