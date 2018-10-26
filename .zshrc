@@ -87,6 +87,8 @@ plugins=(
     git
     golang
     gradle
+    kops
+    kubectl
     minikube
     mix
     mvn
