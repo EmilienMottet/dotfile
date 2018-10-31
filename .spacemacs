@@ -44,8 +44,8 @@ This function should only modify configuration layer settings."
      twitter
      python
      (go :variables
-         ;; go-use-golangci-lint t
-         go-use-gometalinter t
+         go-use-golangci-lint t
+         ;; go-use-gometalinter t
          godoc-at-point-function 'godoc-gogetdoc
          )
      (plantuml :variables plantuml-jar-path "/usr/share/plantuml/lib/plantuml.jar")
