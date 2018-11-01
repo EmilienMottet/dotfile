@@ -80,10 +80,12 @@ plugins=(
     asdf
     aws
     cargo
+    catimg
     colorize
     docker
     docker-compose
     emacs
+    extract
     git
     golang
     gradle
