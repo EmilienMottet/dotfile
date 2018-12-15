@@ -105,6 +105,7 @@ plugins=(
     ssh-agent
     sudo
     terraform
+    vi-mode
     wakatime
     z
     zsh-autosuggestions
