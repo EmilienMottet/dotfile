@@ -38,7 +38,7 @@ parts.time = _h.common('', nil, '${time %H:%M }')
 parts.date = _h.common('', nil, '${time %D}')
 
 -- Volume
-local volume_command = [[amixer sget Master,0 | egrep -o '([0-9]+%|\[(on|off)\])' | head -2 | sed ':a;N;$!ba;s/\n/ /g']]
+local volume_command = [[amixer -D pulse sget Master,0 | egrep -o '([0-9]+%|\[(on|off)\])' | head -2 | sed ':a;N;$!ba;s/\n/ /g']]
 parts.volume = _h.common('', 'VOL', "${execi 1 " .. volume_command .. "}")
 
 -- Spotify

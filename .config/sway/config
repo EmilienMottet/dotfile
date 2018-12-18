@@ -237,8 +237,8 @@ bindsym $alt+Shift+Tab workspace prev
 
 
 # PulseAudio key bindings
-bindsym XF86AudioRaiseVolume exec amixer -D pulse sset Master 400+ unmute
-bindsym XF86AudioLowerVolume exec amixer -D pulse sset Master 400- unmute
+bindsym XF86AudioRaiseVolume exec amixer -D pulse sset Master 5%+ unmute
+bindsym XF86AudioLowerVolume exec amixer -D pulse sset Master 5%- unmute
 bindsym XF86AudioMute exec amixer -D pulse sset Master toggle
 
 # Media player key bindings (you need playerctl for this to work.)
