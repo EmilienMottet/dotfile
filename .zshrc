@@ -8,7 +8,7 @@ POWERLEVEL9K_CUSTOM_DISTRIB_ICON="echo -n \"\uF17C\""
   POWERLEVEL9K_CUSTOM_DISTRIB_ICON_BACKGROUND="white"
 
   POWERLEVEL9K_MODE='nerdfont-complete'
-  POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon custom_distrib_icon custom_internet_signal context dir vcs)
+  POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(virtualenv os_icon custom_distrib_icon custom_internet_signal context dir vcs)
   POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status vi_mode background_jobs custom_music ram battery time)
   POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
   POWERLEVEL9K_OS_ICON_BACKGROUND="green"
