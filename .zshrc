@@ -9,7 +9,7 @@ POWERLEVEL9K_CUSTOM_DISTRIB_ICON="echo -n \"\uF17C\""
 
   POWERLEVEL9K_MODE='nerdfont-complete'
   POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(virtualenv os_icon custom_distrib_icon custom_internet_signal context dir vcs)
-  POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status vi_mode background_jobs custom_music ram battery time)
+  POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status background_jobs custom_music ram battery time)
   POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
   POWERLEVEL9K_OS_ICON_BACKGROUND="green"
   # POWERLEVEL9K_OS_ICON_FOREGROUND="#6E56AF"
@@ -105,7 +105,6 @@ plugins=(
     ssh-agent
     sudo
     terraform
-    vi-mode
     wakatime
     z
     zsh-autosuggestions
@@ -159,3 +158,9 @@ PERL5LIB="/home/emilien/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5L
 PERL_LOCAL_LIB_ROOT="/home/emilien/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
 PERL_MB_OPT="--install_base \"/home/emilien/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=/home/emilien/perl5"; export PERL_MM_OPT;
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/emilien/google-cloud-sdk/path.zsh.inc' ]; then . '/home/emilien/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/home/emilien/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/emilien/google-cloud-sdk/completion.zsh.inc'; fi
