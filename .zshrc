@@ -89,7 +89,7 @@ plugins=(
     git
     golang
     gradle
-    helm
+    helm # wait https://github.com/helm/helm/issues/5046
     kops
     kubectl
     minikube

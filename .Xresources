@@ -1,3 +1,4 @@
+URxvt.saveLines: 1000000
 
 URxvt.keysym.Control-Up:     \033[1;5A
 URxvt.keysym.Control-Down:   \033[1;5B
