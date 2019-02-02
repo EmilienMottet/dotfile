@@ -1,3 +1,6 @@
+# only for rustup
+fpath+=~/.zfunc
+
 # export TERM="xterm-256color"
 export TERM="rxvt-unicode-256color"
 
@@ -106,6 +109,7 @@ plugins=(
     ssh-agent
     sudo
     terraform
+    transfer
     wakatime
     z
     zsh-autosuggestions
