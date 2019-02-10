@@ -43,6 +43,7 @@ This function should only modify configuration layer settings."
    '(php
      typescript
      perl5
+     perl6
      web-beautify
      lsp
      nginx
