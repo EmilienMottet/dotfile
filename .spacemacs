@@ -42,6 +42,7 @@ This function should only modify configuration layer settings."
    dotspacemacs-configuration-layers
    '(php
      json
+     rebox
      restclient
      typescript
      perl5
@@ -124,7 +125,8 @@ This function should only modify configuration layer settings."
      (markdown :variables markdown-live-preview-engine 'vmd)
      multiple-cursors
      neotree
-     (org :variables org-projectile-file "TODOs.org")
+     (org :variables
+          org-want-todo-bindings t)
      (shell :variables
             shell-default-height 30
             shell-default-position 'bottom)
