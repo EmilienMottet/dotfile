@@ -3,11 +3,11 @@
 	name = Emilien Mottet
 	signingkey = emimo14@gmail.com
 [magithub]
-	online = false
+	online = true
 [magithub "status"]
-	includeStatusHeader = false
-	includePullRequestsSection = false
-	includeIssuesSection = false
+	includeStatusHeader = true
+	includePullRequestsSection = true
+	includeIssuesSection = true
 [url "git@gitlab.ensimag.fr:"]
 	insteadOf = https://gitlab.ensimag.fr/
 [github]
