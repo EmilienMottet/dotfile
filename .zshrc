@@ -91,6 +91,7 @@ plugins=(
     emacs
     extract
     git
+    github
     golang
     gradle
     helm
