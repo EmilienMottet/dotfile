@@ -47,6 +47,7 @@ This function should only modify configuration layer settings."
      typescript
      perl5
      perl6
+     unicode-fonts
      web-beautify
      lsp
      nginx
