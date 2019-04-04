@@ -152,6 +152,9 @@ source $ZSH/oh-my-zsh.sh
 
 # source ~/.zshenv
 
+# autosugestion (match used)
+ZSH_AUTOSUGGEST_STRATEGY=match_prev_cmd
+
 export PATH=$PATH
 
 typeset -U path
