@@ -43,6 +43,7 @@ This function should only modify configuration layer settings."
    '(php
      json
      rebox
+     parinfer
      restclient
      typescript
      perl5
@@ -91,7 +92,7 @@ This function should only modify configuration layer settings."
      python
      ;; ycmd
      docker
-     semantic
+     ;; semantic
      gtags
      cscope
      (c-c++ :variables
