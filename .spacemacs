@@ -104,6 +104,7 @@ This function should only modify configuration layer settings."
      (html :variables web-fmt-tool 'prettier)
      yaml
      java
+     dap
      (javascript :variables
                  javascript-backend 'tern
                  javascript-fmt-tool 'prettier

@@ -107,6 +107,7 @@ plugins=(
     rebar
     rbenv
     rust
+    sdk
     solarized-man
     ssh-agent
     sudo
@@ -169,4 +170,6 @@ if [ -f '/home/emilien/google-cloud-sdk/path.zsh.inc' ]; then . '/home/emilien/g
 # The next line enables shell command completion for gcloud.
 if [ -f '/home/emilien/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/emilien/google-cloud-sdk/completion.zsh.inc'; fi
 
-alias recompile='iex --erl "-kernel shell_history enabled" -S mix'
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/emilien/.sdkman"
+[[ -s "/home/emilien/.sdkman/bin/sdkman-init.sh" ]] && source "/home/emilien/.sdkman/bin/sdkman-init.sh"
