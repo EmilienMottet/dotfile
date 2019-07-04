@@ -84,6 +84,7 @@ plugins=(
     asdf
     aws
     cargo
+    cask
     catimg
     colorize
     docker
@@ -91,6 +92,10 @@ plugins=(
     emacs
     extract
     git
+    git-auto-fetch
+    git-extras
+    git-prompt
+    gitfast
     github
     golang
     gradle
@@ -104,8 +109,8 @@ plugins=(
     pip
     pyenv
     python
-    rebar
     rbenv
+    rebar
     rust
     sdk
     solarized-man

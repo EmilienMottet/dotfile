@@ -22,6 +22,12 @@ export NVM_DIR="$HOME/.nvm"
 
 # alias emacs /home/emilien/.oh-my-zsh/plugins/emacs/emacsclient.sh --no-wait
 
+# add evm (emacs version manager)
+export PATH="$HOME/.evm/bin:$PATH"
+
+# add cask (emacs tool package)
+PATH="/home/emilien/.cask/bin:$PATH"
+
 export PATH=$PATH
 
 typeset -U path
