@@ -28,6 +28,8 @@ export PATH="$HOME/.evm/bin:$PATH"
 # add cask (emacs tool package)
 PATH="/home/emilien/.cask/bin:$PATH"
 
+PATH="/home/emilien/.mix/escripts:$PATH"
+
 export PATH=$PATH
 
 typeset -U path
