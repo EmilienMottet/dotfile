@@ -100,6 +100,7 @@ This function should only modify configuration layer settings."
             )
      yaml
      sql
+     games
      plantuml
      (html :variables web-fmt-tool 'prettier)
      yaml
