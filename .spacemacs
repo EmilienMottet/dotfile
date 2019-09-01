@@ -102,7 +102,7 @@ This function should only modify configuration layer settings."
      sql
      games
      plantuml
-     (html :variables web-fmt-tool 'prettier)
+     (html :variables web-fmt-tool 'web-beautify)
      yaml
      java
      dap

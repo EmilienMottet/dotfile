@@ -178,3 +178,5 @@ if [ -f '/home/emilien/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/emi
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/home/emilien/.sdkman"
 [[ -s "/home/emilien/.sdkman/bin/sdkman-init.sh" ]] && source "/home/emilien/.sdkman/bin/sdkman-init.sh"
+
+alias ls=lsd
