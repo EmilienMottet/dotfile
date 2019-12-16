@@ -278,31 +278,35 @@ bindsym $mod+c exec swaylock
 # bindsym $mod+Shift+A kill
 bindsym $alt+F4 kill
 
-# add conky i3bar 
+# # add conky i3bar 
+
+# bar {
+
+# # i3bar, modularized lua json configuration
+#     status_command ~/.config/i3/conky/json.bottom.sh
+
+#     position       bottom
+
+# #   mode         hide
+# #   hidden_state hide
+# #   modifier     Mod1
+
+
+#     colors {
+#         background #161616
+#         statusline #c9c925
+#         separator  #ffffff
+
+#         # class            border    backgrd   text
+#         focused_workspace  #161616   #c9c925   #000000
+#         active_workspace   #161616   #5c5dad   #a5a5a5
+#         inactive_workspace #161616   #222222   #5c5dad
+#         urgent_workspace   #161616   #ad3737   #ffffff
+#     }
+# }
 
 bar {
-
-# i3bar, modularized lua json configuration
-    status_command ~/.config/i3/conky/json.bottom.sh
-
-    position       bottom
-
-#   mode         hide
-#   hidden_state hide
-#   modifier     Mod1
-
-
-    colors {
-        background #161616
-        statusline #c9c925
-        separator  #ffffff
-
-        # class            border    backgrd   text
-        focused_workspace  #161616   #c9c925   #000000
-        active_workspace   #161616   #5c5dad   #a5a5a5
-        inactive_workspace #161616   #222222   #5c5dad
-        urgent_workspace   #161616   #ad3737   #ffffff
-    }
+    swaybar_command waybar
 }
 
 smart_gaps on
