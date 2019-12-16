@@ -102,6 +102,7 @@ plugins=(
     helm
     kops
     kubectl
+    lein
     minikube
     mix
     mvn
