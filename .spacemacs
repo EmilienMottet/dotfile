@@ -539,8 +539,6 @@ This function is called immediately after `dotspacemacs/init', before layer
 configuration.
 It is mostly for variables that should be set before packages are loaded.
 If you are unsure, try setting them in `dotspacemacs/user-config' first."
-  (setq flycheck-elixir-credo-strict t)
-  (setq markdown-command "/usr/bin/pandoc"))
 
 (defun dotspacemacs/user-load ()
   "Library to load while dumping.
@@ -555,6 +553,8 @@ This function is called at the very end of Spacemacs startup, after layer
 configuration.
 Put your configuration code here, except for variables that should be set
 before packages are loaded."
+  (setq x86-lookup-pdf "/home/emilien/exercism/x86-64-assembly/x86.pdf")
+  (setq markdown-command "/usr/bin/pandoc"))
   (setq flycheck-elixir-credo-strict t)
   ;; (setq eclim-executable  "/home/emilien/.p2/pool/plugins/org.eclim_2.7.2/bin/eclim")
   ;; (setq ycmd-server-command '("python" "/home/emilien/Documents/OpenSource/emacs/ycmd/ycmd"))
